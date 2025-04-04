@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Thời tiết hôm nay</h1>
+        <input type="text" id="cityInput" placeholder="Nhập thành phố...">
+        <button onclick="getWeather()">Xem thời tiết</button>
+
+        <div id="weather-info">
+            <h2 id="city-name"></h2>
+            <p id="temp"></p>
+            <p id="desc"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
